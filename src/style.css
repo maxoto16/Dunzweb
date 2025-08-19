@@ -33,6 +33,87 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
   color: #646cff;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 1.2em;
+  color: #888;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
+.content {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.content > p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.features {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+}
+
+.features li {
+  padding: 0.5rem 0;
+  font-size: 1.1em;
+  color: #888;
+}
+
+.actions {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  margin: 0 0.5rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn.primary {
+  background-color: #646cff;
+  color: white;
+}
+
+.btn.primary:hover {
+  background-color: #535bf2;
+  transform: translateY(-2px);
+}
+
+.btn.secondary {
+  background-color: transparent;
+  color: #646cff;
+  border: 2px solid #646cff;
+}
+
+.btn.secondary:hover {
+  background-color: #646cff;
+  color: white;
+  transform: translateY(-2px);
+}
+
+footer {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #333;
+}
+
+footer p {
+  color: #666;
+  font-size: 0.9rem;
 }
 
 p {
@@ -54,6 +135,22 @@ code {
   
   h1 {
     color: #535bf2;
+  }
+  
+  .subtitle {
+    color: #666;
+  }
+  
+  .features li {
+    color: #555;
+  }
+  
+  footer {
+    border-top: 1px solid #ddd;
+  }
+  
+  footer p {
+    color: #888;
   }
   
   p {
